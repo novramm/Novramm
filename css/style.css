@@ -91,9 +91,14 @@ section {
   height: 100%;
 }
 
+.header-name a {
+  width: 100%;
+  text-align: center;
+}
+
 .header-img img {
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   border-radius: 50%;
 }
 
@@ -220,6 +225,6 @@ section {
   }
 
   .header-img img {
-    max-width: 50px;
+    max-width: 60px;
   }
 }
