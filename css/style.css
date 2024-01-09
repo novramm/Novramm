@@ -167,6 +167,7 @@ section {
 
 .job {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
 }
@@ -183,6 +184,8 @@ section {
 
 .social-media {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -206,6 +209,9 @@ section {
   color: #ddd;
 }
 
+@media (max-width: 850px) {
+}
+
 @media (max-width: 650px) {
   .container {
     grid-template-areas:
@@ -214,6 +220,10 @@ section {
       "home home line line table"
       "main main main main table"
       "main main main main like";
+  }
+
+  .main-content h1 {
+    font-size: 28px;
   }
 
   .guess-gender {
